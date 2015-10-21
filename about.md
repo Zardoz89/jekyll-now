@@ -1,15 +1,11 @@
 ---
 layout: page
-title: About
+title: Sobre mi
 permalink: /about/
 ---
 
-Some information about you!
+Ingeniero informatico, friki, pseudo artista, y yo que se mas
 
-### More Information
+### Contacto
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[luis(punto)panadero(algarroba)gmail.com](mailto:luis(punto)panadero(algarroba)gmail.com)
