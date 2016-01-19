@@ -1,0 +1,12 @@
+@font-face{
+    font-family: PressStart2P;
+    src:url('fonts/PressStart2P.ttf');
+    font-style:normal;
+    font-weight:normal;
+}
+
+.site-name {
+    a {
+        font-family: PressStart2P;
+    }
+}
