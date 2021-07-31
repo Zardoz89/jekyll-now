@@ -1,0 +1,54 @@
+$inter-path: 'fonts/inter';
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("#{$inter-path}/Inter-Regular.woff2?v=3.19") format("woff2"),
+  url("#{$inter-path}/Inter-Regular.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("#{$inter-path}/Inter-Italic.woff2?v=3.19") format("woff2"),
+  url("#{$inter-path}/Inter-Italic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("#{$inter-path}/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+  url("#{$inter-path}/Inter-SemiBold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("#{$inter-path}/Inter-SemiBoldItalic.woff2?v=3.19") format("woff2"),
+  url("#{$inter-path}/Inter-SemiBoldItalic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("#{$inter-path}/Inter-Bold.woff2?v=3.19") format("woff2"),
+  url("#{$inter-path}/Inter-Bold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("#{$inter-path}/Inter-BoldItalic.woff2?v=3.19") format("woff2"),
+  url("#{$inter-path}/Inter-BoldItalic.woff?v=3.19") format("woff");
+}
+
+

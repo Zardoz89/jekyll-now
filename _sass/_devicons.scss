@@ -1,0 +1,51 @@
+$devicons-path: 'fonts/devicons';
+
+@font-face {
+  font-family: 'Devicons';
+  src: url('#{$devicons-path}/devicons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.icon-devicon {
+  &:after {
+    font-family: 'Devicons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    vertical-align: baseline;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &--github {
+    &:after {
+      content: "\e608";
+    }
+  }
+  &--windows {
+    &:after {
+      content: "\e60f";
+    }
+  }
+  &--linux {
+    &:after {
+      content: "\e612";
+    }
+  }
+}

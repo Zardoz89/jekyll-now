@@ -1,0 +1,56 @@
+$material-path: 'fonts/material';
+@font-face{
+  font-family: 'Material Design';
+  src: url('#{$material-path}/Material-Icon.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-material {
+  &:after {
+    font-family: 'Material Design' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    vertical-align: baseline;
+
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &--person {
+    &:after {
+      content: "\e7fd";
+    }
+  }
+  &--phone {
+    &:after {
+      content: "\e32c";
+    }
+  }
+  &--email {
+    &:after {
+      content: "\e0be";
+    }
+  }
+  &--location {
+    &:after {
+      content: "\e0c8";
+    }
+  }
+
+
+}

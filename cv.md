@@ -11,11 +11,11 @@ permalink: /cv/
     </figure>
     <aside class="quick-details">
         <ul class="list--no-bullets">
-            <li><i class="icon"></i>El/He/Him</li>
-            <li><i class="icon"></i>636 97 52 59</li>
-            <li><i class="icon"></i>luis.panadero<span class="at">(at)</span>gmail.com</li>
-            <li><i class="icon"></i>San José, 3, 28320, Pinto</li>
-            <li><i class="icon"></i>github.com/Zardoz89</li>
+            <li><i class="icon-material icon-material--person"></i>El/He/Him</li>
+            <li><i class="icon-material icon-material--phone"></i>636 97 52 59</li>
+            <li><i class="icon-material icon-material--email"></i>luis.panadero<span class="at">(at)</span>gmail.com</li>
+            <li><i class="icon-material icon-material--location"></i>San José, 3, 28320, Pinto</li>
+            <li><i class="icon-devicon icon-devicon--github"></i>github.com/Zardoz89</li>
         </ul>
     </aside>
     <section>
@@ -34,7 +34,7 @@ permalink: /cv/
         <h2>OTROS CONOCIMIENTOS</h2>
         <ul class="list">
             <li>Control versiones con Git y Subversion</li>
-            <li>Configuración & instalación múltiples S.O :  , </li>
+            <li>Configuración & instalación múltiples S.O : <i class="icon-devicon icon-devicon--linux"></i>, <i class="icon-devicon icon-devicon--windows"></i></li>
             <li>Edición de imagen, sonido y video</li>
             <li>Automatización CI con Jenkins y GitHub Actions</li>
             <li>Configuración servidores Web, FTP, Samba...</li>
