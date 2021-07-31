@@ -53,11 +53,15 @@ main {
       border-bottom: 2px solid $white;
     }
 
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Fira Code";
+    }
   }
 
   .main-body {
     flex: 1 1 min-content;
-    
+    line-height: 1.25;
+
     section {
       border-bottom: 2px solid $purple;
     }
@@ -119,6 +123,15 @@ ul {
 
     &--no-bullets {
       list-style-type: none;
+    }
+
+    &--with-separation {
+      & > li {
+        margin-bottom: 1rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 }
